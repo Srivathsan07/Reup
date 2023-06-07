@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>choose_your_box-2</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="choose-your-box-section common">
+        <div class="logo-sec">
+            <img src="./assets/images/Logo.png" alt="logo">
+        </div>
+        <div class="menu-sec">
+            <div class="menu-icon">
+                <img src="./assets/images/closed-menu-bg.png" class="img-fluid bg-img" alt="menu-bg">
+                <img src="./assets/images/menu-icon.png" class="img-fluid hamburger-img" alt="icon">
+            </div>
+        </div>
+        <div class="detailed-menu-sec">
+            <div class="close-icon">
+                <img src="./assets/images/close-icon.png" alt="close-icon">
+            </div>
+           <div class="menu-wrapper">
+               <ul>
+                   <li><a href="#">Why Re-Up?</a></li>
+                   <li><a href="#">What's in the Box?</a></li>
+                   <li><a href="#">Reviews</a></li>
+                   <li><a href="#">FAQ</a></li>
+                   <li><a href="#">Login</a></li>
+               </ul>
+           </div>
+        </div>
+        <div class="choose-box-wrapper text-center choose-box-section">
+            <div class="choose-header">
+                <div class="bubbles">
+                    <span class="small-bubble"><img src="./assets/images/header-bubble1.png" alt="bubble1"></span>
+                    <span class="large-bubble"><img src="./assets/images/header-bubble2.png" alt="bubble2"></span>
+                </div>
+                <h1 class="font-42 text-white">Choose your box!</h1>
+            </div>
+
+            <div class="choose-box-parent row d-flex justify-content-center align-items-center mx-auto w-100">
+                <div class="box-parent-content col-lg-6 clo-md-6 col-sm-12">
+                    <div class="choose-box-content">
+                        <div class="main-box">
+                            <img  class="w-100" src="./assets/images/feel-Box.png" alt="main-box">
+                        </div>
+                        <div class="navigation m-0">
+                            <div class="get-started d-flex justify-content-center"><a href="sign_in.html" class="d-flex justify-content-center align-items-center font-20 m-0">Select</a></div>
+                        </div>
+                        <div class="option-boxes d-flex justify-content-evenly align-items-center flex-wrap">
+                            <img class="option-box" src="./assets/images/Box-2.png" alt="box-2">
+                            <a href="1d_choose-your-box.html">
+                            <img class="option-box" src="./assets/images/chillin-box.png" alt="box-3">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-includes col-lg-4 clo-md-4 col-sm-12">
+                    <div class="box-content-parent">
+                        <div class="box-content">
+                            <ul class="list mb-0 p-0">
+                                <h5 class="list-head font-20">This Box Includes :</h5>
+                                <li class="font-16">Biscotti</li>
+                                <li class="font-16">Tropaya</li>
+                                <li class="font-16">Grapefruit Kush</li>
+                                <li class="font-16">Superglue (12 Pack)</li>
+                                <li class="font-16">Charge</li>
+                                <li class="font-16">Chapos Churro </li>
+                                <li class="font-16">Blue Lemon (.5g)</li>
+                                <li class="font-16">COTC OG (Badder)</li>
+                                <li class="font-16">Summer Haze </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+           
+           
+        </div>
+        <div class="choose-bg">
+            <img src="./assets/images/choose-bg.png" alt="choose-bg">
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="./js/custom.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script>
+        $(document).ready(function(){
+           $(".menu-icon").click(function(){
+           $(".detailed-menu-sec").addClass("show");
+           });
+
+           $(".close-icon").click(function(){
+            $(".detailed-menu-sec").removeClass("show");
+           });
+        });
+    </script>
+</body>
+</html>

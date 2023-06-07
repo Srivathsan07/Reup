@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="your-order-section common">
+        <div class="logo-sec">
+            <img src="./assets/images/Logo.png" alt="logo">
+        </div>
+        <div class="menu-sec">
+            <div class="menu-icon">
+                <img src="./assets/images/closed-menu-bg.png" class="img-fluid bg-img" alt="menu-bg">
+                <img src="./assets/images/menu-icon.png" class="img-fluid hamburger-img" alt="icon">
+            </div>
+        </div>
+        <div class="detailed-menu-sec">
+            <div class="close-icon">
+                <img src="./assets/images/close-icon.png" alt="close-icon">
+            </div>
+           <div class="menu-wrapper">
+               <ul>
+                   <li><a href="#">Why Re-Up?</a></li>
+                   <li><a href="#">What's in the Box?</a></li>
+                   <li><a href="#">Reviews</a></li>
+                   <li><a href="faq.html">FAQ</a></li>
+                   <li><a href="login.html">Login</a></li>
+               </ul>
+           </div>
+        </div>
+        <div class="choose-box-wrapper text-center checkout">
+            <div class="choose-header">
+                <div class="bubbles">
+                    <span class="small-bubble"><img src="./assets/images/header-bubble1.png" alt="bubble1"></span>
+                    <span class="large-bubble"><img src="./assets/images/header-bubble2.png" alt="bubble2"></span>
+                </div>
+                <h1 class="font-42 text-white">Your Order</h1>
+            </div>
+
+            <div class="your-order-parent row d-flex justify-content-center align-items-center mx-auto w-100">
+              <form action="4a_profile_account.html">
+                <div class="box-orders">
+                    <div class="order your-order-box">
+                        <div class="order-box">
+                            <img src="./assets/images/order-box.png" alt="order-box">
+                        </div>
+                        <div class="order-content d-flex justify-content-between align-items-center mb-4">
+                            <table class="order-table">
+                                <tbody>
+                                    <tr>
+                                        <td class="text-left font-16">Box Name :</td>
+                                        <td class="text-right font-16">The Feel Good Box</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="text-left font-16">Preferences :</td>
+                                        <td class="text-right font-16">Creative, Nutty, Smoke</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="text-left font-16">Amount :</td>
+                                        <td class="text-right font-16">$250.00</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="text-left font-16">Tax :</td>
+                                        <td class="text-right font-16">$51.00</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="text-left font-16">Total :</td>
+                                        <td class="text-right font-16">$301.00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                        <div class="order-description">
+                            <p class="font-16">Re-Up is a subscription service that bills you at the communicated frequency and will be automatically charged using the payment method provided.
+                                You may cancel your subscription anytime in your profile or by contacting Re-Up Support at hello@reupbox.com.   </p>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="font-42 text-white checkout-header">Shipping Information</h1>
+                <div class="shipping">
+                    <div class="your-order-box checkout-form-wrapper">
+                        <div class="row">
+                            
+                            <div class="col-lg-6">
+                                <div class="form-item">
+                                    <span class="label-icons"><img src="./assets/images/user.png" alt="user"></span>
+                                    <input type="text" id="username" autocomplete="off" required="">
+                                    <label for="username font-16" class="floating-label">First Name</label>
+                                    <div class="error-text font-14">*Please fill-out this field</div>
+                               </div>
+                            </div> 
+
+                            <div class="col-lg-6">
+                                <div class="form-item">
+                                    <span class="label-icons"><img src="./assets/images/user.png" alt="user"></span>
+                                    <input type="text" id="username" autocomplete="off" required="">
+                                    <label for="username font-16" class="floating-label">Last Name</label>
+                                    <div class="error-text font-14">*Please fill-out this field</div>
+                               </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="form-item">
+                                    <span class="label-icons"><img src="./assets/images/home.png" alt="home"></span>
+                                    <input type="text" id="username" autocomplete="off" required="">
+                                    <label for="username font-16" class="floating-label">Address 1</label>
+                                    <div class="error-text font-14">*Please fill-out this field</div>
+                               </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-item">
+                                    <span class="label-icons"><img src="./assets/images/home.png" alt="home"></span>
+                                    <input type="text" id="username" autocomplete="off" required="">
+                                    <label for="username font-16" class="floating-label">Address 2</label>
+                                    <div class="error-text font-14">*Please fill-out this field</div>
+                               </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-item">
+                                    <span class="label-icons"><img src="./assets/images/maps.png" alt="map"></span>
+                                    <input type="text" id="username" autocomplete="off" required="">
+                                    <label for="username font-16" class="floating-label">City</label>
+                                    <div class="error-text font-14">*Please fill-out this field</div>
+                               </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="form-item">
+                                    <span class="label-icons"><img src="./assets/images/building.png" alt="building"></span>
+                                    <input type="text" id="username" autocomplete="off" required="">
+                                    <label for="username font-16" class="floating-label">MA Only</label>
+                                    <div class="error-text font-14">*Please fill-out this field</div>
+                               </div>
+                            </div>  
+                            <div class="col-lg-6">
+                                <div class="form-item">
+                                    <span class="label-icons"><img src="./assets/images/Subtract.png" alt="subtract"></span>
+                                    <input type="text" id="username" autocomplete="off" required="">
+                                    <label for="username font-16" class="floating-label">Zip Code</label>
+                                    <div class="error-text font-14">*Please fill-out this field</div>
+                               </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <h1 class="font-42 text-white checkout-header">Billing Information</h1>
+
+                <div class="billing">
+                    <div class="your-order-box checkout-form-wrapper">
+                        <div class="row">
+
+                            <div class="col-lg-12">
+                                <div class="form-item">
+                                    <span class="label-icons"><img src="./assets/images/credit-card.png" alt="card"></span>
+                                    <input type="text" id="username" autocomplete="off" required="">
+                                    <label for="username font-16" class="floating-label">Card Number</label>
+                                    <div class="error-text font-14">*Please fill-out this field</div>
+                               </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="form-item">
+                                    <span class="label-icons"><img src="./assets/images/calender.png" alt="calender"></span>
+                                    <input type="text" id="username" autocomplete="off" required="">
+                                    <label for="username font-16" class="floating-label">Expiry Date</label>
+                                    <div class="error-text font-14">*Please fill-out this field</div>
+                               </div>
+                            </div>  
+                            <div class="col-lg-4">
+                                <div class="form-item">
+                                    <span class="label-icons"><img src="./assets/images/cvv.png" alt="cvv"></span>
+                                    <input type="text" id="username" autocomplete="off" required="">
+                                    <label for="username font-16" class="floating-label">CVV</label>
+                                    <div class="error-text font-14">*Please fill-out this field</div>
+                               </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="form-item">
+                                    <span class="label-icons"><img src="./assets/images/Subtract.png" alt="subtract"></span>
+                                    <input type="text" id="username" autocomplete="off" required="">
+                                    <label for="username font-16" class="floating-label">Zip Code</label>
+                                    <div class="error-text font-14">*Please fill-out this field</div>
+                               </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="total-billing">
+                   <div class="billing-total your-order-box">
+                       <div class=" d-flex justify-content-between">
+                         <div class="para">  
+                             <p class="font-16">Total :</p>
+                            </div>
+                         <div class="para">
+                            <p class="font-16">$301.00</p>
+                         </div>
+
+                       </div>
+                   </div>
+                </div>
+
+               <div class="terms-btn navigation">
+                    <div class="your-order-terms">
+                        <p class="text-white font-16">By clicking complete my Order you are agreeing to the Re-Up Terms & Conditions.</p>
+                    </div>
+                    <div class="get-started d-flex justify-content-center mt-4">
+                        <a href="#" class="d-flex justify-content-center align-items-center font-20 "><button type="submit" class="sign-in-btn">Complete My Order</button></a>
+                    </div>
+                </div>
+              </form>
+
+            </div>
+           
+           
+        </div>
+   
+    </div>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/custom.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+   
+
+</body>
+</html>

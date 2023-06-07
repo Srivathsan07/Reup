@@ -1,0 +1,42 @@
+/* .rope-animation{
+    animation:upDown 4s linear infinite;
+
+}
+
+@keyframes upDown {
+
+    0%, 100% {
+       bottom: 10px;
+       right: 30px;
+    }
+
+    50% {
+
+       bottom: 80px;
+       right: 10px;
+    }
+}
+.bubbles .small-bubble{
+    animation:hideShowOne 2s linear infinite
+}
+@keyframes hideShowOne {
+   from{
+        display: none;
+    }
+    to{
+        display:block;
+    }
+    
+}
+.bubbles .large-bubble{
+    animation:hideShowTwo 3s linear infinite
+}
+@keyframes hideShowTwo {
+from{
+        display:none;
+    }
+ to{
+        display:block;
+    }
+    
+} */

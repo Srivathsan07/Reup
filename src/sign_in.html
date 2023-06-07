@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-in</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="user-survey-section login-section">
+        <div class="logo-sec">
+          <a href="home.html"> <img src="./assets/images/Logo.png" alt="logo"></a>
+        </div>
+            <div class="menu-icon">
+                <img src="./assets/images/closed-menu-bg.png" class="img-fluid bg-img" alt="menu-bg">
+                <img src="./assets/images/menu-icon.png" class="img-fluid hamburger-img" alt="icon">
+            </div>
+        <div class="detailed-menu-sec">
+            <div class="close-icon">
+                <img src="./assets/images/close-icon.png" alt="close-icon">
+            </div>
+           <div class="menu-wrapper">
+               <ul>
+                   <li><a href="#">Why Re-Up?</a></li>
+                   <li><a href="#">What's in the Box?</a></li>
+                   <li><a href="#">Reviews</a></li>
+                   <li><a href="faq.html">FAQ</a></li>
+                   <li><a href="login.html">Login</a></li>
+               </ul>
+           </div>
+        </div>
+      <form action="1g_checkout.html">
+        <div class="sign-in-container ">
+          <h4 class="font-22">Create Your Re-Up Account</h4>
+             <div class="form-wrapper d-flex flex-wrap">
+              <div class="form-item">
+                  <span class="label-icons"><img src="./assets/images/user.png" alt="user"></span>
+               <input type="text" id="username" autocomplete="off" required>
+               <label for="username" class="floating-label">Name</label>
+               <div class="error-text">*Please fill-out this field</div>
+             </div>
+             <div class="form-item">
+               <span class="label-icons"><img src="./assets/images/email.png" alt="password"></span>
+               <input type="text" id="mail" autocomplete="off" required>
+               <label for="mail" class="floating-label">Email</label>
+               <div class="error-text">*Please fill-out this field</div>
+             </div>
+             <div class="form-item">
+               <span class="label-icons"><img src="./assets/images/phone.png" alt="password"></span>
+               <input type="text" id="number" autocomplete="off" required>
+               <label for="number" class="floating-label">Phone Number</label>
+               <div class="error-text">*Please fill-out this field</div>
+             </div>
+             <div class="form-item">
+               <span class="label-icons"><img src="./assets/images/zip.png" alt="password"></span>
+               <input type="text" id="zip" autocomplete="off" required>
+               <label for="zip" class="floating-label">Zip Code</label>
+               <div class="error-text">*Please fill-out this field</div>
+             </div>
+             <div class="form-item">
+              <span class="label-icons"><img src="./assets/images/password.png" alt="password"/></span>
+              <input type="password" id="password" autocomplete="off" required />
+              <label for="password" class="floating-label">Password</label>
+              <span class="eye-icon eye-close" id="new-pwd">
+                <span class="eye-img-wrapper">
+                  <img src="./assets/images/eye-close.png"  alt="eye-close"  class="eye-close-image"/>
+                  <img src="./assets/images/eye-open.png"  alt="eye-open"  class="eye-open-image"/>
+                </span>
+              </span>
+              <div class="error-text">*Please fill-out this field</div>
+            </div>
+            <div class="form-item">
+              <span class="label-icons"><img src="./assets/images/password.png" alt="password"/></span>
+              <input type="password" id="password-confirm1" autocomplete="off" required />
+              <label for="password" class="floating-label">Confirm New Password</label>
+              <span class="eye-icon eye-close" id="confirm-pwd1">
+                <span class="eye-img-wrapper">
+                  <img  src="./assets/images/eye-close.png"  alt="eye-close"  class="eye-close-image"/>
+                  <img src="./assets/images/eye-open.png" alt="eye-open" class="eye-open-image"/>
+                </span>
+              </span>
+              <div class="error-text font-14">*Please fill-out this field</div>
+            </div>
+             </div>
+             <div class="age-limit-check d-flex align-items-center">
+                  <input type="checkbox" name="age" id="age-limit">
+                  <label for="age-limit" class="font-16">I’m 21+ years of age</label>
+             </div>
+            <div class="terms-conditions-text font-16">By clicking Sign-Up you are agreeing to the <a href="terms_and_conditions.html" class="terms-condition-link">Re-Up Terms & Conditions</a></div>
+            <div class="navigation d-flex justify-content-between">
+              <div class="back"><a href="#" class="d-flex justify-content-center align-items-center font-20 ">Back</a></div>
+              <div class="next"><a href="#" class="d-flex justify-content-center align-items-center font-20 "><button type="submit" class="sign-in-btn">Sign Up</button></a></div>
+          </div>
+         </div>
+      </form>
+    </div>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/custom.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+   
+</body>
+</html>

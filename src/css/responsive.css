@@ -1,0 +1,584 @@
+@media only screen and (min-width: 1600px) {
+  .survey-box {
+    width: 100%;
+  }
+  .login-container {
+    width: 35%;
+  }
+  .sign-in-container {
+    width: 60%;
+  }
+  .terms-conditions-wrapper {
+    max-width: 100%;
+    width: 70%;
+  }
+  .checkout .your-order-parent .your-order-box{
+    width: 70%;
+  }
+  .choose-box-section .choose-header .bubbles {
+    width: 550px;
+  }
+  /* Aashik start */
+  .questions-img {
+    text-align: right;
+  }
+  .questions-img img {
+    width: 70% !important;
+  }
+  /* Aashik end */
+}
+@media only screen and (max-width: 1400px) {
+  .form-item input {
+    height: 65px;
+    font-size: 16px;
+  }
+  .form-item .label-icons {
+    top: 20px;
+  }
+  .form-item .floating-label {
+    top: 20px;
+    font-size: 16px;
+  }
+  .form-item input:focus ~ .floating-label,
+  .form-item input:not(:focus):valid ~ .floating-label,
+  .form-item input:valid ~ .floating-label {
+    top: 10px;
+    font-size: 15px;
+  }
+  .form-item .eye-icon {
+    top: 20px;
+  }
+  input:focus,
+  input:not(:focus):valid,
+  input:valid {
+    padding-top: 12px;
+  }
+  input#password,
+  input#password-confirm1 {
+    padding-top: 12px;
+  }
+  input#password:focus,
+  input#password:not(:focus):valid,
+  input#password:valid,
+  input#password-confirm1:focus,
+  input#password-confirm1:not(:focus):valid,
+  input#password-confirm1:valid {
+    padding-top: 12px;
+  }
+  .sign-in a {
+    padding: 12px 35px;
+    font-weight: 600;
+  }
+  .navigation a {
+    text-decoration: none;
+    padding: 12px 40px;
+    font-weight: 700;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .sign-in-container {
+    margin-top: 180px;
+    margin-bottom: 50px;
+  }
+  .terms-conditions-wrapper {
+    width: 95%;
+  }
+  ul#pills-tab {
+    padding-top: 150px !important;
+}
+}
+/* aashik */
+@media only screen and (min-width: 992px) {
+  .right-content.padding {
+    padding: 0px 80px 0px 0px;
+  }
+  }
+  /* aashik end */
+@media only screen and (max-width: 991px) {
+  .rope-animation {
+    display: none;
+  }
+  .bubbles {
+    display: none;
+  }
+  .survey-wrapper {
+    padding-top: 100px;
+  }
+  .menu-icon,
+  .logo-sec,
+  .top-logo {
+    width: 270px;
+    height: 170px;
+  }
+  .detailed-menu-sec .menu-wrapper {
+    padding-top: 15px;
+  }
+
+  .sign-in-container {
+    width: 90%;
+  }
+  .age-limit-check input[type="checkbox"]:checked~label::after{
+    top: 3px;
+  }
+  .checkout .checkout-form-wrapper{
+    padding: 20px 20px 0 20px !important;
+  }
+  .checkout .choose-header {
+    padding-top: 70px;
+}
+.checkout .checkout-header{
+  margin: 40px auto !important;
+}
+ /* Aashik start */
+ .questions-img img {
+  width: 70% !important;
+  display: block;
+  margin: auto;
+}
+.box-includes .box-content-parent {
+  margin: 2rem auto;
+}
+
+.questions .cloud-img-1,.questions .cloud-img-2,.portfolio .background-cloud{
+  display: none;
+}
+.section-common .bubble{
+  display: none;
+}
+.section-1 {
+  min-height: unset;
+}
+.choose-box-parent .choose-box-content .main-box {
+margin-bottom: 18px;
+}
+.choose-box-parent .choose-box-content .option-boxes {
+  margin-top: 18px;
+}
+.choose-box-parent .box-parent-content {
+justify-content: center;
+}
+.choose-your-box-section .choose-bg {
+display: none;
+}
+.choose-your-box-section .choose-header {
+padding-top: 100px;
+}
+.choose-box-wrapper .choose-box-parent {
+padding: 0px 5px;
+}
+.box-includes .list li , .in-box-container .list li {
+line-height: 2.8;
+}
+
+/* Aashik end */
+}
+/* aashik start */
+@media only screen and (min-device-width: 320px) and (max-device-width: 800px) and (orientation: landscape) {
+  .left-right-content {
+      margin-top: -90px !important;
+  }
+  .reup-img {
+      width: 50%;
+  } 
+  .right-content.padding {
+    padding: 0px 20px 20px;
+  }
+  
+  }
+  /* aashiik end */
+@media only screen and (max-width: 991px) and (orientation: landscape) {
+  .login-container {
+    margin-top: 150px;
+    margin-bottom: 50px;
+  }
+  .sign-in-container {
+    margin-top: 180px;
+  }
+  .checkout .checkout-form-wrapper {
+    padding: 20px 20px 0 20px !important;
+}
+}
+/* aashik start */
+@media only screen and (min-width: 768px) and (max-width: 992px){
+  .right-content.padding {
+    padding: 0px 0 20px;
+  }
+  }
+  /* aashik end */
+@media only screen and (max-width: 767px) {
+  .survey-box {
+    margin: 30px 0;
+    height: unset;
+    width: 100%;
+  }
+  .logo-sec,
+  .menu-icon,
+  .top-logo {
+    width: 200px;
+    height: 150px;
+  }
+  .detailed-menu-sec .menu-wrapper {
+    padding-top: 10px;
+  }
+
+  .survey-wrapper {
+    padding: 100px 15px 0 15px;
+  }
+  .survey-wrapper .options .option {
+    width: 35%;
+  }
+  .login-container,
+  .sign-in-container {
+    width: 100%;
+    padding: 15px 15px 10px 15px;
+  }
+  .login-container h4 {
+    margin-bottom: 20px;
+  }
+  .form-item input {
+    height: 55px;
+    padding-left: 50px;
+  }
+  .form-item .label-icons {
+    left: 15px;
+    top: 16px;
+  }
+  .form-item .floating-label {
+    left: 50px;
+    top: 16px;
+  }
+  input:focus,
+  input:not(:focus):valid,
+  input:valid {
+    padding: 15px 30px 0px 50px;
+  }
+  input#password:focus,
+  input#password:not(:focus):valid,
+  input#password:valid,
+  input#password-confirm1:focus,
+  input#password-confirm1:not(:focus):valid,
+  input#password-confirm1:valid {
+    padding: 15px 50px 0px 50px;
+  }
+  .form-item input:focus ~ .floating-label,
+  .form-item input:not(:focus):valid ~ .floating-label,
+  .form-item input:valid ~ .floating-label {
+    top: 10px;
+    left: 50px;
+    font-size: 13px;
+  }
+  .form-item .eye-icon {
+    right: 20px;
+    top: 16px;
+  }
+  .sign-in-container .navigation {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .sign-in-container .form-item {
+    width: 100%;
+  }
+  .terms-conditions-wrapper h1 {
+    margin-bottom: 20px;
+  }
+  .terms-conditions-wrapper p {
+    margin-bottom: 20px;
+  }
+  .terms-conditions-wrapper .survey-wrapper.text-center {
+    padding-top: 80px;
+  }
+  .terms-conditions-wrapper {
+    padding-bottom: 30px;
+    padding-top: 80px;
+  }
+  .detailed-menu-sec {
+    padding: 20px 30px 0 0;
+    background-size: 200px;
+    width: 200px;
+  }
+  .accounts-tab .line {
+    padding: 20px 0 3px 0;
+}
+.accounts-tab .line>label,.accounts-tab .line .sign-in-label,.accounts-tab .change-pwd{
+  margin-bottom: 10px;
+}
+.accounts-tab .account-head{
+  flex-direction: column;
+}
+.accounts-tab .account-head h4{
+  text-align: left;
+  margin-bottom: 20px;
+}
+.accounts-tab .account-head p{
+  text-align: right;
+}
+.accounts-tab .accounts-header{
+  padding: 15px !important;
+}
+.accounts-tab .accounts-content{
+  padding: 15px !important;
+}
+ul#pills-tab {
+  padding-top: 100px !important;
+}
+#pills-profile-tab .subscription-arrow{
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+}
+/* aashik start */
+.your-order-parent .order {
+  padding: 1rem 3rem 3rem 3rem !important;
+}
+.section-common .bubble{
+  display: none;
+}
+
+/* aashik end */
+}
+/* balaji start */
+@media only screen and (max-width: 600px) { 
+
+  .subscription-tab .accounts-sec-main { flex-direction: column; align-items: baseline;}
+
+  .subscription-tab .content-left .pad-15px {padding: 0px;margin-top: 15px !important;}
+
+  .subscription-tab .pad-15px {padding: 0px;margin-top: 15px !important;}
+
+  .subscription-tab .line.py-4 {padding-left: 0px !important;padding-right: 0px !important;}
+
+  .subscription-tab .content-left.padding-sec { padding: 0px;}
+
+  .subscription-tab .line .line-headers span {display: none;}
+
+}
+/* balaji end */
+@media only screen and (min-width:576px){
+  .age-modal .modal-dialog {
+    max-width: 520px !important;
+  
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .logo-sec,
+  .menu-icon,
+  .top-logo {
+    width: 130px;
+    height: 100px;
+  }
+  .detailed-menu-sec .menu-wrapper {
+    padding-top: 5px;
+  }
+
+  .menu-icon .hamburger-img {
+    right: 30px;
+    top: 15px;
+    width: 20px;
+  }
+  .detailed-menu-sec {
+    padding: 10px 15px 0 0;
+    background-size: 175px;
+    width: 175px;
+  }
+
+  .close-icon img {
+    width: 20px;
+    height: 20px;
+  }
+  .detailed-menu-sec ul li a {
+    font-size: 14px;
+  }
+  .options .option {
+    margin: 10px 50px;
+  }
+  .navigation a {
+    padding: 12px 25px;
+    margin: 0px 8px;
+  }
+
+  .survey-wrapper .options .option {
+    width: 100%;
+  }
+  .survey-wrapper .navigation {
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  .form-item .label-icons {
+    top: 15px;
+  }
+  .form-item .floating-label {
+    top: 15px;
+  }
+  .form-item .eye-icon {
+    top: 15px;
+  }
+  .sign-in-container {
+    margin-top: 120px;
+  }
+  .sign-in-container .navigation {
+    width: 70%;
+  }
+  .sign-in-container .navigation {
+    flex-direction: column;
+  }
+  .sign-in-container .navigation a {
+    margin: 10px 0;
+  }
+  .sign-in a {
+    padding: 8px 25px;
+  }
+  .terms-conditions-wrapper .navigation {
+    padding-top: 30px;
+  }
+  .error-text {
+    font-size: 10px;
+  }
+  /* modal */
+  .modal .buttons a {
+    margin: 0 5px !important;
+  }
+  /* TABS */
+  ul#pills-tab {
+    padding-top: 60px !important;
+}
+.nav-pills .nav-link, .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  border-radius: 50% !important;
+  padding: 10px;
+  width: 65px;
+  height: 65px;
+  margin-bottom: 1rem;
+}
+ul#pills-tab button img{
+  width: 24px;
+  height: 24px;
+}
+ul#pills-tab p{
+  font-size: 16px !important;
+}
+div#pills-tabContent{
+  padding-top: 20px !important;
+}
+#pills-profile-tab .subscription-arrow {
+  position: absolute;
+  bottom: 12px;
+  right: 18px;
+  width: 12px;
+  height: 14px;
+}
+  /* accounts-tab */
+  .accounts-tab .navigation{
+    justify-content: center !important;
+  }
+  .accounts-tab .account-head h4, .accounts-tab .account-head p{
+    text-align: center;
+  }
+  /* Aashik start */
+ .section-common .bubble{
+  display: none;
+}
+.questions-img {
+ display: block;
+ margin: auto;
+ width: 80% !important;
+}
+.portfolio .background-cloud,.questions .cloud-img-1,.questions .cloud-img-2{
+ display: none;
+}
+.your-order-parent .order {
+ padding: 1rem 1rem 3rem 1rem !important;
+}
+.questions-img img {
+ width: 100% !important;
+}
+.padding {
+ padding: 40px 20px;
+}
+.profile-info-wrapper .accounts .accounts-content {
+ background: #F4F2EA;
+ padding: 10px 10px;
+}
+.accounts-header {
+ padding: 15px;
+ text-align: center;
+}
+.box-includes .list li, .in-box-container .list li  {
+ line-height: 3;
+}
+.in-box-container .box-content {
+  padding: 15px 20px;
+}
+.choose-box-parent .choose-box-content .option-boxes img.option-box {
+  margin: 5px;
+}
+.conditions p.condtions-txt { 
+  padding-inline: 2rem;
+}
+.conditions p.condtions-txt::after {
+  top: 4px; 
+}
+/* Aashik end */
+}
+
+@media only screen and (max-width: 359px) {
+  .login-container,
+  .sign-in-container {
+    margin-top: 120px;
+    margin-bottom: 50px;
+  }
+  .error-text {
+    font-size: 9px;
+  }
+  .reset-password-container .form-item .floating-label,
+  .sign-in-container .form-item .floating-label {
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .age-modal .modal-content {
+    width: 95%;
+  }
+  .age-modal .buttons {
+    flex-direction: column !important;
+  }
+  .age-modal .buttons a {
+    margin: 10px 0 !important;
+  }
+  .accounts-tab .account-head h4{
+    white-space: nowrap;
+  }
+  .accounts-tab .account-head h4,.accounts-tab .account-head p{
+    text-align: center;
+  }
+   /* aashik start */
+
+   .in-box-container .box-content {
+    padding: 10px 10px;
+  }
+
+  /* aashik end */
+}
+/* ashik start */
+@media only screen and (max-width: 330px){
+  .box-includes .list li {
+    line-height: 2.9;
+}
+.in-box-container ul.list span.li-img { 
+  padding-right: 5px;
+}
+}
+/* ashik end */
+@media only screen and (max-width: 319px) {
+  .reset-password-container .form-item .floating-label,
+  .sign-in-container .form-item .floating-label {
+    width: 125px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .modal .buttons a {
+    border-radius: 25px !important;
+    padding: 9px 30px !important;
+  }
+}
